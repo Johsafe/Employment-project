@@ -1,0 +1,105 @@
+
+
+
+.bg{
+    width: auto;
+    height: 300px;
+    background-position: center;
+    object-fit: fill;
+    background-size: cover;
+    padding: 50px;
+    align-items: center;
+    background-attachment: local;
+    border-top-right-radius: 50px;
+    
+  }
+  .apply{
+    
+        padding: 8px;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 30px;
+        border: none;
+        margin-left: 50px;
+        cursor: pointer;
+        width: 150px;
+        background-color:whitesmoke;
+        
+    }
+    .apply:hover{
+  background-color: rgba(0, 0, 255, 0.651);
+    }
+  
+  .bg h1{
+    font-size: 60px;
+    margin-top: 15px;
+    color: rgb(0, 4, 248);
+  }
+  .bg p{
+      font-size: 30px;
+      color:white;
+  }
+  .arrange{
+      display: flex;
+      margin: 20px;
+  }
+  .requirement{
+      width: 550px;
+      background-color: rgba(0, 162, 255, 0.596);
+      padding: 20px;
+      border-radius: 10px;
+      
+  }
+  .requirement h4{
+      font-size: 25px;
+      color: blue;
+      font-weight: 400;
+      font-style: oblique;
+      text-decoration: underline black wavy;
+  }
+  .requirement p{
+      
+      font-size: 20px;
+      font-style: italic;
+      
+  }
+  .benefit{
+      width: 550px;
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 20px;
+      text-overflow: clip;
+      background-color: rgba(0, 162, 255, 0.596);
+
+  }
+  .hiring{
+      font-size: 23px;
+      font-style: oblique;
+  }
+  
+  table{
+    border: 1px solid rgb(160, 152, 152);
+    border-collapse: collapse;
+    padding: 15px;
+    width: 100%;
+  }
+  .sector{
+      font-weight: bolder;
+
+  }
+ td {
+    border: 1px solid rgb(160, 152, 152);
+    border-collapse: collapse;
+    padding: 15px;
+    overflow: hidden;
+}
+
+th {
+    order: 1px solid rgb(160, 152, 152);
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+  

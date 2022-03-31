@@ -1,0 +1,48 @@
+.background{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color:rgb(38, 108, 199) ;
+    padding: 15px;
+    margin-top: 2px;
+
+}
+h1{
+    font-size: 45px;
+    padding: 15px;
+}
+.apply{
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25%;
+    border: none;
+    margin-left: 35px;
+    background-color: brown;
+    cursor: pointer;
+
+}
+p{
+    font-size: 20px;
+}
+h3{
+    font-size: 38px;
+
+}
+h4{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: start;
+}
+.start {
+    text-align: center;
+}
+.questions{
+    background-color: rgb(38, 108, 199);
+    padding: 15px; 
+    text-decoration: none;
+    text-overflow: hidden;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0 ,0, 0, 0.2);
+}
