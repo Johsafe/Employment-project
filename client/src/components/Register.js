@@ -22,10 +22,19 @@ const Register = ({setAuth}) =>{
     //submit to restful api to get jwt token
     const onSubmitForm = async e => {
         e.preventDefault();
+        if(!name){
+            return toast.error("please input name");
+        }
+        if (!email){
+            return toast.error("please input email")
+        }
+        if (!password){
+            return toast.error("please input password")
+        }
 
         try {
              const body = { name ,email ,password}
-            const response = await fetch("http://localhost:5000/auth/register",
+             const response = await fetch("http://localhost:5000/auth/register",
             {
                 method: "POST",
                 headers:{"Content-type" :"application/json"
@@ -64,29 +73,27 @@ const Register = ({setAuth}) =>{
             <h5>Please Sign-up to continue </h5>
             <input type="text" name="name" 
             placeholder="name" className={classes.details}
-             value={name} required
+             value={name} 
              onChange={e=> onChange(e)}/>
 
             <input type="email" name="email"
             placeholder="email" className={classes.details}
-            value={email}  required
+            value={email}  
             onChange={e=> onChange(e)}/>
 
             <input type="password" name="password" 
             placeholder="password" className={classes.details}
-            value={password} required
+            value={password} 
             onChange={e=> onChange(e)}/>
 
-</div>
+            </div>
 
-            <button className={classes.button2}>Register</button>
+            <button className={classes.button2} type='submit'>
+                Register
+                </button>
             <h5>Don't have an account? <Link className={classes.link} to='/login'>Log in</Link></h5>
-            
             </form>
             </div>
-  
-
-  
         </Fragment>
     );
 };

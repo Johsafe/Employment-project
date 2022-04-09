@@ -4,7 +4,11 @@ import {Route ,Switch ,Redirect} from 'react-router-dom';
 import{ toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css";
 
+// forget password
+import ForgetPass from './Password/forgot-password';
+import ResetPass from './Password/resetpass';
 
+     //services
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import Register from './components/Register';
@@ -17,6 +21,7 @@ import Nairobi from "./Details/Nairobi";
 import Cyber from "./Details/cyber";
 import Carpentry from "./Details/carpentry";
 import Affiliate from "./Details/affiliate";
+import ProfileImage from "./dashboard/profileimage";
 
 toast.configure();
 
@@ -89,7 +94,8 @@ function App() {
         </Route>
         
         <Route path='/contacts'>
-         <Contacts/> 
+         {/* <Contacts/>  */}
+         <ProfileImage/>
          
         </Route>
         <Route path='/services'>
@@ -108,6 +114,14 @@ function App() {
         </Route>
         <Route path='/carpentry'>
         <Carpentry/>
+        </Route>
+
+        <Route path='/forget'>
+        <ForgetPass/>
+        </Route>
+
+        <Route path='/reset/:id/:token'>
+        <ResetPass/>
         </Route>
          </Switch>
     </div>

@@ -1,6 +1,7 @@
 import { Fragment, useState, useEffect } from "react";
 // import{ Route ,Switch ,Link } from 'react-router-dom';
 import{ toast } from "react-toastify"
+import AccountNavigation from '../dashboard/AccountNavigation';
 
 // import profile from '../images/bg1.jpg'
 // import Loan from '../dashboard/Loan';
@@ -42,6 +43,7 @@ const Dashboard = ({ setAuth }) => {
     <Fragment>
       <h1>Dashboard </h1>
       <h1>Welcome {name}</h1>
+      <AccountNavigation/>
 
       <button className="btn btn-primary" onClick={e=>logout(e)}>Logout</button>
        

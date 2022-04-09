@@ -59,50 +59,7 @@ function Cyber (){
                <p>Good salary</p> 
                
               </div> 
-          </div>
-
-          {/* <table >
-        <tr>
-            <th >Sector</th>
-            <th > Company</th>
-            <th>Vacancy</th>
-            <th>Location</th>
-            <th>Contact</th>
-            <th>Apply</th>
-        </tr>
-        <tr>
-            <td rowspan="4" className={classes.sector}><b>AGRICULTURAL</b></td>
-            <td>Emst Handel</td>
-            <td>Veterinary</td>
-            <td>Karen</td>
-            <td>emts@gmail.com</td>
-            <td><Link to='/signin'>Apply</Link></td> 
-        </tr>
-        <tr>
-            <td>Island Trading</td>
-            <td>field manager</td>
-            <td>runda</td>
-            <td>islandtraning@yahoo.com</td>
-            <td><Link to='/signin'>Apply</Link></td>
-        </tr>
-        <tr>
-            <td>Alfreds Futter</td>
-            <td>Farm-management specialist</td>
-            <td>umoja</td>
-            <td>alfredsfutter@gmail.com</td>
-            <td><Link to='/signin'>Apply</Link></td>
-        </tr>
-        <tr>
-            <td>Magazzini</td>
-            <td>Aquaculture tecnologist</td>
-            <td>westland</td>
-            <td>magazzini@gmail.com</td>
-            <td><Link to='/signin'>Apply</Link></td>
-        </tr>
-
-
-       
-        </table> */}
+              </div> 
 
         </div>
     );
